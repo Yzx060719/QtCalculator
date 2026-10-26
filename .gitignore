@@ -1,0 +1,34 @@
+# ---- 构建产物 ----
+build/
+build-shots/
+debug/
+release/
+*.o
+*.exe
+*.dll
+Makefile
+Makefile.Debug
+Makefile.Release
+*.pro.user
+*.pro.user.*
+.qmake.stash
+.qmake.cache
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+object_script.*
+
+# ---- 工具生成的编译产物 ----
+tools/g++.exe
+tools/*.obj
+
+# ---- 临时日志 ----
+_*.log
+*.tmp
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
